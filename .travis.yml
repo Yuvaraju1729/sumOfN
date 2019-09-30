@@ -7,6 +7,6 @@ deploy:
   - provider: s3
     access_key_id: $AWS_ACCESS
     secret_access_key: $AWS_KEY
-    bucket: 'uv-bucket-aws'
+    bucket: 'uvbucketaws2'
     region: 'us-east-2'
     skip_cleanup: true
